@@ -1,3 +1,5 @@
+let timerId = null;
+
 function iniciandoJogo() {
   const url = window.location.search;
 
@@ -18,22 +20,33 @@ function iniciandoJogo() {
   document.getElementById('cronometro').innerHTML = tempoSegundos;
 
   let qtdeBaloes = 80;
-  let qtdeBaloesEstourados = 40;
+  let qtdeBaloesEstourados = 0;
 
   criaBaloes(qtdeBaloes);
 
   document.getElementById('baloesInteiros').innerHTML = qtdeBaloes;
   document.getElementById('baloesEstourados').innerHTML = qtdeBaloesEstourados;
+
+  contagemtempo(tempoSegundos + 1);
+
 }
 
-function criaBaloes(qtdeBaloes) {
-  for (let i = 1; i <= qtdeBaloes; i++) {
-    
-    let balao = document.createElement("img");
-    balao.src = './imagens/balao_azul_pequeno.png';
-    balao.style = 'margin: 10px';
+function contagemtempo(segundos) {
+  segundos = segundos - 1;
 
-    document.getElementById('cenario').appendChild(balao);
+  if (segundos == -1) {
+    clearTimeout(timerId);
+    gameOver();
+    return false;
   }
-  
+
+  document.getElementById('cronometro').innerHTML = segundos;
+
+  timerId = setTimeout("contagemtempo("+segundos+")", 1000);
+
+}
+
+function gameOver() {
+  removeEventoBaloes();
+  alert("Fim de jogo! Você não conseguiu estourar todos os balões a tempo.");
 }
