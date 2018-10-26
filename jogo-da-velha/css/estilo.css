@@ -1,0 +1,60 @@
+.titulo-jogo {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.tela-jogo {
+  margin-top: 50px;
+}
+
+.altura-marcacao {
+  width: 100px;
+  height: 100px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tamanho-pagina-inicial {
+  width: 600px;
+}
+
+div {
+  display: inline-block;
+  text-align: center;
+}
+
+input {
+  text-align: center;
+  border: none;
+}
+
+  /* linhas do jogo da velha  */
+
+  table {
+    border-collapse: collapse;
+  }
+
+  .linha-jogo1 {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+  }
+
+  .linha-jogo2 {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+  }
+  .linha-jogo3 {
+    border-bottom: 1px solid black;
+  }
+  
+  .linha-jogo4 {
+    border-right: 1px solid black;
+  }
+  .linha-jogo5 {
+    border-right: 1px solid black;
+  }

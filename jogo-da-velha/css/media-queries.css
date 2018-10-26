@@ -1,0 +1,13 @@
+@media (max-width: 600px) {
+  table {
+    width: 300px;
+   }
+
+   img {
+     width: 90px;
+   }
+
+   .play {
+     width: 50px;
+   }
+  }

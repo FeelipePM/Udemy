@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/media-queries.css">
+	<title>Jogo da velha</title>
+</head>
+<body>
+
+	<div id="pagina_inicial" class="tamanho-pagina-inicial">
+		<table>
+			<tbody>
+				<tr>
+					<td class="titulo-jogo" colspan="3">Jogo da velha</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="imagens/jogador_1.png" alt="Jogador 1">
+						<input type="text" maxlength="10" placeholder="Apelido Jogador 1">
+					</td>
+					<td>
+						<img class="play" src="imagens/iniciar.png" alt="Inicia o Jogo">
+					</td>
+					<td>
+						<img src="imagens/jogador_2.png" alt="Jogador 2">
+						<input type="text" maxlength="10" placeholder="Apelido Jogador 2">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div id="palco_jogo" class="tela-jogo">
+		<div>
+				<img src="imagens/jogador_1.png" alt="">
+		</div>
+		
+		<div>
+			<table>
+				<tr>
+					<td class="linha-jogo1">
+						<div class="altura-marcacao"></div>
+					</td>
+					<td class="linha-jogo2">
+						<div class="altura-marcacao"></div>
+					</td>
+					<td class="linha-jogo3">
+						<div class="altura-marcacao"></div>
+					</td>
+				</tr>
+				<tr>
+					<td class="linha-jogo1">
+						<div class="altura-marcacao"></div>
+					</td>
+					<td class="linha-jogo2">
+						<div class="altura-marcacao"></div>
+					</td>
+					<td class="linha-jogo3">
+						<div class="altura-marcacao"></div>
+					</td>
+				</tr>
+				<tr>
+					<td class="linha-jogo4">
+						<div class="altura-marcacao"></div>
+					</td>
+					<td class="linha-jogo5">
+						<div class="altura-marcacao"></div>
+					</td>
+					<td>
+						<div class="altura-marcacao"></div>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div>
+			<img src="imagens/jogador_2.png" alt="">
+		</div>
+	</div>
+	
+	
+	<script src="js/jquery-2.2.1.js"></script>
+	
+</body>
+</html>
