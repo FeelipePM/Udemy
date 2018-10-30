@@ -5,6 +5,7 @@
 }
 
 .tela-jogo {
+  display: none;
   margin-top: 50px;
 }
 
@@ -57,4 +58,8 @@ input {
   }
   .linha-jogo5 {
     border-right: 1px solid black;
+  }
+
+  .play {
+    cursor: pointer;
   }

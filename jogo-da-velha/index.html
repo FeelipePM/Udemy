@@ -9,7 +9,7 @@
 	<title>Jogo da velha</title>
 </head>
 <body>
-
+	
 	<div id="pagina_inicial" class="tamanho-pagina-inicial">
 		<table>
 			<tbody>
@@ -19,70 +19,75 @@
 				<tr>
 					<td>
 						<img src="imagens/jogador_1.png" alt="Jogador 1">
-						<input type="text" maxlength="10" placeholder="Apelido Jogador 1">
+						<input id="apelido_jogador1" type="text" maxlength="10" placeholder="Apelido Jogador 1">
 					</td>
 					<td>
-						<img class="play" src="imagens/iniciar.png" alt="Inicia o Jogo">
+						<img id="btn_inicia_jogo" class="play" src="imagens/iniciar.png" alt="Inicia o Jogo">
 					</td>
 					<td>
 						<img src="imagens/jogador_2.png" alt="Jogador 2">
-						<input type="text" maxlength="10" placeholder="Apelido Jogador 2">
+						<input id="apelido_jogador2" type="text" maxlength="10" placeholder="Apelido Jogador 2">
 					</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
-
+	
 	<div id="palco_jogo" class="tela-jogo">
 		<div>
-				<img src="imagens/jogador_1.png" alt="">
+			<img src="imagens/jogador_1.png" alt="">
+			<br>
+			<span id="nome_jogador1"></span>
 		</div>
 		
 		<div>
 			<table>
 				<tr>
 					<td class="linha-jogo1">
-						<div class="altura-marcacao"></div>
+						<div class="altura-marcacao jogada" id="a-1"></div>
 					</td>
 					<td class="linha-jogo2">
-						<div class="altura-marcacao"></div>
+						<div class="altura-marcacao jogada" id="a-2"></div>
 					</td>
 					<td class="linha-jogo3">
-						<div class="altura-marcacao"></div>
+						<div class="altura-marcacao jogada" id="a-3"></div>
 					</td>
 				</tr>
 				<tr>
 					<td class="linha-jogo1">
-						<div class="altura-marcacao"></div>
+						<div class="altura-marcacao jogada" id="b-1"></div>
 					</td>
 					<td class="linha-jogo2">
-						<div class="altura-marcacao"></div>
+						<div class="altura-marcacao jogada" id="b-2"></div>
 					</td>
 					<td class="linha-jogo3">
-						<div class="altura-marcacao"></div>
+						<div class="altura-marcacao jogada" id="b-3"></div>
 					</td>
 				</tr>
 				<tr>
 					<td class="linha-jogo4">
-						<div class="altura-marcacao"></div>
+						<div class="altura-marcacao jogada" id="c-1"></div>
 					</td>
 					<td class="linha-jogo5">
-						<div class="altura-marcacao"></div>
+						<div class="altura-marcacao jogada" id="c-2"></div>
 					</td>
 					<td>
-						<div class="altura-marcacao"></div>
+						<div class="altura-marcacao jogada" id="c-3"></div>
 					</td>
 				</tr>
 			</table>
 		</div>
-
+		
 		<div>
 			<img src="imagens/jogador_2.png" alt="">
+			<br>
+			<span id="nome_jogador2"></span>
 		</div>
 	</div>
 	
 	
 	<script src="js/jquery-2.2.1.js"></script>
+	<script src="js/jogo.js"></script>
 	
 </body>
 </html>

@@ -10,4 +10,15 @@
    .play {
      width: 50px;
    }
+
+   body {
+    display: flex;
+    flex-direction: inherit;
   }
+
+  .tamanho-pagina-inicial {
+
+    width: 400px;
+  }
+
+}
