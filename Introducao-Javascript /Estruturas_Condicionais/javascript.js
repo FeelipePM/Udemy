@@ -21,6 +21,7 @@ document.write("a * b = " + mult);
 document.write("<br>");
 document.write("a / b = " + div);
 document.write("<br>");
+document.write("<br>");
 
 if (c % a == 1) {
   document.write("O resto de c % a é um numero impar");
