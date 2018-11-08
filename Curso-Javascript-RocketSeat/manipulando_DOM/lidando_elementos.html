@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lidando com Elementos</title>
+</head>
+<body>
+
+  <div id="app">
+    <input type="text" id="nome">
+  </div>
+
+  <script>
+   let linkElement = document.createElement('a');
+    linkElement.setAttribute('href', 'https://www.google.com.br');
+    linkElement.setAttribute('title', 'Site Google');
+
+   let textElement = document.createTextNode('Acessar o Google');
+    linkElement.appendChild(textElement);
+
+    let container = document.querySelector('#app');
+      container.appendChild(linkElement);
+
+    let inputElement = document.querySelector('#nome');
+      container.removeChild(inputElement);
+      
+  </script>
+  
+</body>
+</html>

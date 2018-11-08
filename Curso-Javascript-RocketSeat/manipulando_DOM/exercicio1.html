@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exercicio 1</title>
+</head>
+<body>
+
+  <div id="app">
+    <button class="botao">Criar Quadrado</button>
+  </div>
+
+  <script>
+
+    let btnElement = document.querySelector('.botao');
+
+    btnElement.onclick = function () {
+      criaQuadrado();
+    }
+
+function criaQuadrado() {
+  let quadradoElement = document.createElement('div');
+    quadradoElement.style.width = '100px';
+    quadradoElement.style.height = '100px';
+    quadradoElement.style.backgroundColor = 'red';
+    quadradoElement.style.margin = '5px';
+
+  let containerElemet = document.querySelector('#app');
+    containerElemet.appendChild(quadradoElement);
+}
+  
+  </script>
+
+</body>
+</html>
