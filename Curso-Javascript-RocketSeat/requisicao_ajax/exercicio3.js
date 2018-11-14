@@ -17,10 +17,10 @@ function renderLoading(loading) {
   listElement.innerHTML = "";
 
   let textElement = document.createTextNode('Carregando....');
-  let liElement = document.createElement('li');
+  let loadingElement = document.createElement('li');
 
-  liElement.appendChild(textElement);
-  listElement.appendChild(liElement);
+  loadingElement.appendChild(textElement);
+  listElement.appendChild(loadingElement);
 }
 
 function renderError(loading) {
