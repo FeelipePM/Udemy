@@ -13,11 +13,38 @@ function renderRepositories(repositories) {
   }
 }
 
+function renderLoading(loading) {
+  listElement.innerHTML = "";
+
+  let textElement = document.createTextNode('Carregando....');
+  let liElement = document.createElement('li');
+
+  liElement.appendChild(textElement);
+  listElement.appendChild(liElement);
+}
+
+function renderError(loading) {
+  listElement.innerHTML = "";
+
+  let textElement = document.createTextNode('Erro!');
+  let errorElement = document.createElement('li');
+
+  errorElement.style.color = "F00";
+  
+  errorElement.appendChild(textElement);
+  listElement.appendChild(errorElement);
+}
+
 function listRepositories () {
   let user = inputElement.value;
   if (!user) return;
+    renderLoading();
+
   axios.get('https://api.github.com/users/' + user + '/repos')
   .then(function (response) {
     renderRepositories(response.data);
   })
+  .catch(function () {
+    renderError();
+  });
 } 
