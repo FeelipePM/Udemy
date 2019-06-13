@@ -10,6 +10,43 @@ body {
   align-items: center; 
 }
 
-.main {
+h1 {
+  color: #828271;
+  font-size: 1.2em;
+}
+
+.container {
   width: 900px;
+}
+
+.menu {
+  background: #c5c5b2;
+  padding: 20px;
+  text-align: center;
+}
+
+.menu > a {
+  text-transform: uppercase;
+  color: #4b566a;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.content {
+  background: #e8e8d9;
+  padding: 10px;
+  text-align: center;
+}
+
+.content > h1 {
+  text-transform: uppercase;
+}
+
+.campaign-image {
+  border: 5px solid #c3c3ae;
+}
+
+.footer {
+  text-align: center;
 }
