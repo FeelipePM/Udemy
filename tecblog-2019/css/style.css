@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1em;
+  background: #e6e6e6;
+  font-family: 'Roboto', sans-serif;
+}
+
+a:link, a:visited {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 12px;
+}
+
+a:hover {
+  color: #f7b600;
+  background-color: #ffffff;
+}
+
+.header {
+  background-color: #f7b600;
+  padding: 15px;
+  text-align: center;
+}
+
+.logo, .menu {
+  padding: 10px;
+}
+
+.logo > h1 {
+  color: #4e4e4e;
+  font-size: 2.5em;
+}
+
+.logo span {
+  color: #ffffff;
+}
