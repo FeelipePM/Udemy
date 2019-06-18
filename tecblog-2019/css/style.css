@@ -9,21 +9,25 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-a:link, a:visited {
-  color: #ffffff;
+a {
   text-decoration: none;
-  padding: 8px 12px;
-}
-
-a:hover {
-  color: #f7b600;
-  background-color: #ffffff;
 }
 
 .header {
   background-color: #f7b600;
   padding: 15px;
   text-align: center;
+}
+
+.header a:link, .header a:visited {
+  color: #ffffff;
+  padding: 8px 12px;
+}
+
+.header a:hover {
+  color: #f7b600;
+  background-color: #ffffff;
+  text-decoration: none;
 }
 
 .logo, .menu {
@@ -37,4 +41,91 @@ a:hover {
 
 .logo span {
   color: #ffffff;
+}
+
+.main-content {
+  width: 920px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.posts {
+  width: 660px;
+  float: left;
+}
+
+.lateral-menu {
+  width: 240px;
+  float: right;
+}
+
+.post {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.post p {
+  margin-bottom: 5px;
+}
+
+.post-title {
+  color: #f7b600;
+}
+
+.post-date {
+  display: block;
+  font-size: 0.8em;
+  border-bottom: 1px solid #f4f4f4;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.img1 {
+  width: 620px;
+}
+
+.read-more {
+  margin-bottom: 15px;
+}
+
+.read-more:link, .read-more:visited {
+  color: #f7b600;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+.lateral-content {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.lateral-content h3 {
+  background-color: #ccc;
+  color: #565656;
+  padding: 5px;
+}
+
+.lateral-post {
+  font-size: 0.8em;
+  padding: 5px;
+  border-bottom:  1px dotted #ccc
+}
+
+.lateral-post:last-child {
+  border-bottom: none;
+}
+
+.lateral-post p {
+  margin-bottom: 5px;
+}
+
+.footer {
+  clear: both;
+  background-color: #ccc;
+  padding: 15px;
+  text-align: center;
 }
