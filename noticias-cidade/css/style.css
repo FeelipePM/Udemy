@@ -70,3 +70,46 @@ body.fotos .menu-navegacao a#fotos {
   cursor: text;
   border-radius: 0 10px 10px 0;
 }
+
+/* Conteúdo */
+
+.content {
+  margin-top: 60px;
+  background-color: #f5f5f5;
+}
+
+.main-content {
+  width: 270px;
+  float: left;
+  margin:  0 0 20px 195px;
+  background-color: blue;
+}
+
+.secondary-content {
+  width: 270px;
+  float: left;
+  margin:  0 0 20px 15px;
+  background-color: green;
+}
+
+.side-content {
+  width: 180px;
+  float: left;
+  margin:  0 0 20px -750px;
+  background-color: yellow;
+}
+
+/* Rodapé */
+
+.container-footer {
+  clear: both;
+  background-color: #294c71;
+  padding: 20px;
+}
+
+.content-footer {
+  width: 750px;
+  margin: 0 auto;
+  color: #fff
+}
+
