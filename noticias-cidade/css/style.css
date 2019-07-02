@@ -150,6 +150,26 @@ body.fotos .menu-navegacao a#fotos {
   color: #a1a1a1;
 }
 
+label {
+  display: block;
+  cursor: pointer;
+}
+
+input {
+  padding: 4px;
+  margin-top: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 0.9em;
+  background-color: #fff;
+}
+
+input.submit {
+  color: #fff;
+  background-color: #b10333;
+  border: 2px solid #870529;
+}
+
 /* Rodapé */
 
 .container-footer {
