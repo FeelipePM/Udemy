@@ -4,3 +4,10 @@ body {
   font-family: 'Roboto', sans-serif;
   background: #fff url(../img/fundo.png) repeat-x;
 }
+
+h3 {
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 0.8em;
+  padding: 3px;
+}

@@ -78,12 +78,6 @@ body.fotos .menu-navegacao a#fotos {
   background-color: #f5f5f5;
 }
 
-#three-columns .main-content {
-  width: 270px;
-  float: left;
-  margin:  0 0 20px 195px;
-}
-
 #two-columns .main-content {
   width: 555px;
 }
@@ -168,6 +162,25 @@ input.submit {
   color: #fff;
   background-color: #b10333;
   border: 2px solid #870529;
+}
+
+/* Destaque - Formato da Imagem */
+img.main-image {
+  width: 98%;
+  border: 3px solid #dfdfdf;
+  margin-top: 3px;
+}
+
+/* Destaque - Titulo */
+
+.main-content .main-title {
+  background: #b10333;
+  color: #fff;
+}
+
+.secondary-content .main-title {
+  background: #de003e;
+  font-weight: bold;
 }
 
 /* Rodapé */
