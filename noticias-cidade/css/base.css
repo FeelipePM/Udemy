@@ -11,3 +11,13 @@ h3 {
   font-size: 0.8em;
   padding: 3px;
 }
+
+a:link, a:visited {
+  color: #b10333;
+  padding: 2px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e50040;
+}
