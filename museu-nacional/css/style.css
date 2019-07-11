@@ -17,6 +17,11 @@ a:hover {
  margin: 0 auto;
 }
 
+.logo h1 {
+  float: left;
+  margin: 17px;
+}
+
 .logo a {
   width: 248px;
   height: 21px;
