@@ -3,6 +3,14 @@ body {
   font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
 }
 
+h3 {
+  color:#227115;
+  text-transform: uppercase;
+  font-size: 1.0em;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
 a:link, a:active a:visited {
   color: #af670a;
   text-decoration: none;
@@ -131,3 +139,41 @@ section.gallery img {
   margin-top: 3px;
 }
 
+article.video {
+  float: left;
+  width: 310px;
+  margin-left: 25px;
+}
+
+article.map {
+  float: left;
+  width: 310px;
+  margin-left: 37px;
+}
+
+article.exhibitions {
+  float: left;
+  width: 310px;
+  margin: 15px 0 0 25px;
+}
+
+article.exhibitions li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+article.exhibitions li:last-child{
+  font-weight: bold;
+}
+
+article.history {
+  float: left;
+  width: 310px;
+  margin: 15px 0 0 37px;
+}
+
+article.history a {
+  display:block;
+  margin-top: 10px;
+  font-weight: bold;
+}
