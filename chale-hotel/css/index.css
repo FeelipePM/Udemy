@@ -1,0 +1,28 @@
+.header-wrapper {
+  background: #ede9cc;
+}
+
+.header-wrapper header {
+  position: relative;
+  background: #dbcd87;
+  height: 15.4em;
+  min-height: 250px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../img/topo-imagem-principal.png) no-repeat;
+  width: 100%;
+  height: 250px;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(../img/topo-imagem-lateral.png) no-repeat;
+  width: 450px;
+  height: 250px;
+}
