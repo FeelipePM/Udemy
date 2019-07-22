@@ -8,3 +8,7 @@ body {
   background: #fff url(../img/bg.png);
   margin: 15px;
 }
+
+ul {
+  list-style: none;
+}
