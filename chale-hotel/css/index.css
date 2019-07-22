@@ -76,3 +76,30 @@
 .fix {
   clear: both;
 }
+
+.menu-lateral {
+  margin-top: 15px;
+}
+
+ul.navigation {
+  float: left;
+}
+
+ul.navigation a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  padding: 5px;
+  color: #6e672c;
+  line-height: 30px;
+}
+
+ul.navigation a:hover {
+ background-color: #fdf6be;
+}
+
+.testimonial {
+  width: 226px;
+  height: 164px;
+  float: right;
+}
