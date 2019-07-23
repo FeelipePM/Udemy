@@ -1,5 +1,5 @@
 .header-wrapper {
-  background: #ede9cc;
+  background: #ede9cc url(../img/bg-container.png) top center repeat-y;
   margin: 0 auto;
   min-width: 740px;
   max-width: 1180px;
@@ -71,6 +71,7 @@
   float: right;
   text-decoration: none;
   cursor: pointer;
+  font-style: normal;
 }
 
 .fix {
@@ -102,4 +103,27 @@ ul.navigation a:hover {
   width: 226px;
   height: 164px;
   float: right;
+}
+
+.main-content {
+  float: left;
+  width: 50%;
+  background: url(../img/bg-area-principal.png) top left repeat-x;
+  padding: 15px 0px;
+}
+
+.lateral-content{
+  float: right;
+  width: 50%;
+  background: url(../img/bg-area-lateral.png) top left repeat-x;
+  padding: 20px 0px;
+}
+
+.main-content .content, .lateral-content .content {
+  margin: 0 auto;
+  width: 90%;
+}
+
+footer{
+  clear: both;
 }
