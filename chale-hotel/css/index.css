@@ -124,6 +124,42 @@ ul.navigation a:hover {
   width: 90%;
 }
 
+.benefits li {
+   padding: 8px;
+   border-bottom: 1px solid #f3efcb;
+   height: 6em;
+}
+
+.benefits li:hover {
+   background: #f6f3d6;
+   cursor: pointer;
+}
+
+.benefits li h3 {
+  color: #615b2d;
+  font-size: 1.0em;
+  padding: 5px 0;
+  background: url(../img/ornamento.png) no-repeat center right;
+}
+
+.benefits li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.benefits li a p {
+  font-size: 0.8em;
+}
+
+.benefits li a img {
+  width: 150px;
+  float: left;
+  margin-right: 8px;
+}
+
 footer{
   clear: both;
+  padding: 16px;
+  background: #fff url(../img/bg-rodape.png) repeat-x top;
+  color: #7d7640;
 }
